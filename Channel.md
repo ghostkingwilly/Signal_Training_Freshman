@@ -33,4 +33,8 @@
     * block fading
     * selective fading
 * phase delay
+    * https://ccrma.stanford.edu/~jos/fp/Phase_Delay.html
+    * http://www.sengpielaudio.com/calculator-timedelayphase.htm
 * path loss
+    * https://en.wikipedia.org/wiki/Path_loss
+    * https://www.utdallas.edu/~torlak/courses/ee4367/lectures/lectureradio.pdf
