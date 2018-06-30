@@ -1,5 +1,10 @@
 # Radio Frequency Identification
 
+## Slide
+
+* https://www.slideshare.net/PeterSam67/rfidppt-4339033
+* Spec
+
 ## RFID Standard
 
 * air interface protocol
