@@ -24,7 +24,11 @@ Introduction
 
 ---
 * reference
-    * 
+    * Harald T. Friis, "A Note on a Simple Transmission Formula," Proceedings of the I.R.E. and Waves and Electrons, May, 1946, pp 254–256.
+    * https://en.wikipedia.org/wiki/Friis_transmission_equation
+    * Johnson, Richard (1984). Antenna Engineering Handbook (2nd ed.). New York, NY: McGraw-Hill, Inc. p. 1-12.
+    * Friis, H.T. (May 1946). "A Note on a Simple Transmission Formula". IRE Proc.: 254–256.
 
 * external links
-    * 
+    * [The Friis Equation](http://www.antenna-theory.com/basics/friis.php)
+    * [Friis Transmission Equation Calculator](https://www.random-science-tools.com/electronics/friis.htm)
