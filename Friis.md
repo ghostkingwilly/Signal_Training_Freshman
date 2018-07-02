@@ -28,6 +28,7 @@ Introduction
     * https://en.wikipedia.org/wiki/Friis_transmission_equation
     * Johnson, Richard (1984). Antenna Engineering Handbook (2nd ed.). New York, NY: McGraw-Hill, Inc. p. 1-12.
     * Friis, H.T. (May 1946). "A Note on a Simple Transmission Formula". IRE Proc.: 254–256.
+    * [Antenna Gain](https://en.wikipedia.org/wiki/Antenna_gain)
 
 * external links
     * [The Friis Equation](http://www.antenna-theory.com/basics/friis.php)
