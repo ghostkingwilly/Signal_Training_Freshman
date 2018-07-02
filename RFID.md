@@ -28,7 +28,10 @@
 
 * start from page 32
 
+* command introduce 
+
 * FM0 preamble
     * FM0 symbols and sequence
-* command 
+    
+* show picture 
 
