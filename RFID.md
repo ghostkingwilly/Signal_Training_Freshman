@@ -30,5 +30,5 @@
 
 * FM0 preamble
     * FM0 symbols and sequence
-* 
+* command 
 
