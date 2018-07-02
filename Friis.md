@@ -11,11 +11,16 @@ Introduction
 ```
 ---
 
-## Friis's original formula
-* 
+## Friis' original formula
+* Why Friis
+
+* formula
 
 ---
 ## Comtemporary formula
+* counterpart yield
+
+* formula
 
 ---
 * reference
