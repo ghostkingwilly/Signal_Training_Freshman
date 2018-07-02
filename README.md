@@ -33,6 +33,9 @@
 
 * Material
     * https://en.wikipedia.org/wiki/Friis_transmission_equation
+    * [Antenna Gain](https://en.wikipedia.org/wiki/Antenna_gain)
+    * [The Friis Equation](http://www.antenna-theory.com/basics/friis.php)
+    * [Friis Transmission Equation Calculator](https://www.random-science-tools.com/electronics/friis.htm)
 
 * Parameters
 * Equation 
