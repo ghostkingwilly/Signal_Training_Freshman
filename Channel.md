@@ -38,3 +38,4 @@
 * path loss
     * https://en.wikipedia.org/wiki/Path_loss
     * https://www.utdallas.edu/~torlak/courses/ee4367/lectures/lectureradio.pdf
+    * Friis Transmission Formula
