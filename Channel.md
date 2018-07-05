@@ -21,7 +21,7 @@
     * \omega = 2\pi f
 
 ---
-## Where is chennal
+## Where is channel
 
 * example code
 
