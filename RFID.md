@@ -6,7 +6,7 @@
 * Spec
 
 ## RFID Standard
-
+RFID2
 * air interface protocol
     * reader 
     * tag
@@ -25,13 +25,16 @@
 * Applications
 ---
 ## Reading schedule
-
+RFID_basic.pdf
 * start from page 32
 
-* command introduce 
+* Backscatter
+* UHF EPC
 
 * FM0 preamble
     * FM0 symbols and sequence
     
-* show picture 
+* MAC Layer
+* Query round picture
+* Query round step by step 
 
