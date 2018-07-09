@@ -1,5 +1,5 @@
 clear;
-clc;
+%clc;
 close all;
 %% parameter
 
@@ -96,7 +96,7 @@ Ref2obj_dis_t = Ref2obj_dis ./LS;
 Ref2han_dis_t = Ref2han_dis ./LS;
 
 % TODO : phase = -2*pi*freq*time
-alt_up = -2 * pi * FREQ * i;
+alt_up = -2 * pi * FREQ * i
 Ref2obj_p = angle((alt_up * Ref2obj_t));
 Ref2hand_p = angle(alt_up * Ref2hand_t);
 Ref2obj_dis_p = angle(exp(alt_up .* Ref2obj_dis_t));
