@@ -23,10 +23,10 @@ ref_yi = 0;
 
 % setting starting index of obj and hand
 obj_or_xi = 10;
-obj_or_yi = 5;
+obj_or_yi = 10;
 
-hand_or_xi = 5;
-hand_or_yi = -7;
+hand_or_xi = 10;
+hand_or_yi = -10;
 
 %% plane with straight line
 
@@ -38,7 +38,7 @@ o1 = [obj_or_xi, obj_or_yi];
 h1 = [hand_or_xi, hand_or_yi];
 
 % slope and shift
-slope1 = 2;
+slope1 = 5;
 y_shift1 = obj_or_yi - slope1 * (obj_or_xi);
 
 slope2 = -2;
