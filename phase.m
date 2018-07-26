@@ -96,7 +96,7 @@ Ref2obj_dis_t = Ref2obj_dis ./LS;
 Ref2han_dis_t = Ref2han_dis ./LS;
 
 % TODO : phase = -2*pi*freq*time
-alt_up = -2 * pi * FREQ * i
+alt_up = -2 * pi * FREQ * 1i
 Ref2obj_p = angle((alt_up * Ref2obj_t));
 Ref2hand_p = angle(alt_up * Ref2hand_t);
 Ref2obj_dis_p = angle(exp(alt_up .* Ref2obj_dis_t));
@@ -107,6 +107,7 @@ Ref2han_dis_p = angle(exp(alt_up .* Ref2han_dis_t));
 xlim([0 length(PLOT_SIZE)]);
 ylim([0 length(PLOT_SIZE)]);
 
+subplot(2,2,[1,2])
 ini_x = [ref_xi, obj_or_xi, hand_or_xi];
 ini_y = [ref_yi, obj_or_yi, hand_or_yi];
 plot(ini_x, ini_y, 'o');
@@ -119,13 +120,15 @@ hold on;
 grid on;
 title('Trajectory');
 
-figure();
+%figure();
+subplot(2,2,3)
 plot(Ref2obj_dis_p,'r');
 hold on;
 plot(Ref2han_dis_p, 'bl');
 title('Phase change');
 
-figure();
+%figure();
+subplot(2,2,4)
 plot(theta_tra);
 title('Angle of Trajectory');
 
