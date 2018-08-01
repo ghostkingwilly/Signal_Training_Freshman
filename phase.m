@@ -89,14 +89,14 @@ ref2han_dis = sqrt(sum(abs(ref2han_tra).^2,1));
 theta = (abs(angle(asin(Ref2obj / Ref2obj_h)))+abs(angle(asin(Ref2hand / Ref2han_h))))*180/pi;
 theta_tra = (abs(angle(asin(Ref2obj_dis ./ ref2obj_dis))) + abs(angle(asin(Ref2han_dis ./ ref2han_dis)))).*180./pi;
 
-% TODO : time = d/3*10^8
+% time = d/3*10^8
 Ref2obj_t = Ref2obj / LS;
 Ref2hand_t = Ref2hand / LS;
 Ref2obj_dis_t = Ref2obj_dis ./LS;
 Ref2han_dis_t = Ref2han_dis ./LS;
 
-% TODO : phase = -2*pi*freq*time
-alt_up = -2 * pi * FREQ * 1i
+% phase = -2*pi*freq*time
+alt_up = -2 * pi * FREQ * 1i;
 Ref2obj_p = angle((alt_up * Ref2obj_t));
 Ref2hand_p = angle(alt_up * Ref2hand_t);
 Ref2obj_dis_p = angle(exp(alt_up .* Ref2obj_dis_t));
