@@ -1,6 +1,21 @@
 clear;
 %clc;
 close all;
+
+%{
+
+Default coordinary
+1. Object: (10, 10)
+2. Hand: (10, -10)
+3. Reference: (0, 0)
+
+Default Spread: 10 cm
+Walk for 300s.
+
+Slope for Object: 5
+Slope for hand: -5
+
+%}
 %% parameter
 
 % frequency(900MHz)
@@ -13,7 +28,7 @@ mod = 0;
 % time stamp
 ts = 300;
 % spread
-walk_des = 0.1;
+walk_des = 10;
 % set the plane size 
 PLOT_SIZE = 1000;
 
@@ -24,7 +39,7 @@ ref_yi = 0;
 % setting starting index of obj and hand
 obj_or_xi = 10;
 obj_or_yi = 10;
-
+% hand
 hand_or_xi = 10;
 hand_or_yi = -10;
 
