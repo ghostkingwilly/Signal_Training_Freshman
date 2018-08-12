@@ -1,6 +1,6 @@
-clear;
+clear
 %clc;
-close all;
+close all
 
 %{
 
@@ -128,9 +128,9 @@ ini_y = [ref_yi, obj_or_yi, hand_or_yi];
 plot(ini_x, ini_y, 'o');
 hold on;
 
-plot(xi_1, yi_1, '.');
+plot(xi_1, yi_1, 'r.');
 hold on;
-plot(xi_2, yi_2, '.');
+plot(xi_2, yi_2, 'bl.');
 hold on;
 grid on;
 title('Trajectory');
